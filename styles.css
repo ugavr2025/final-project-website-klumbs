@@ -72,14 +72,18 @@ header p {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.team-member p {
+    text-align: left;
+}
+
 .team-member:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(164, 113, 113, 0.15);
 }
 
 .team-member img {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
