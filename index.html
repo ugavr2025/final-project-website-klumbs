@@ -1,94 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team Klumbs - VR Final Project</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-        <!-- Navigation Bar -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">klumbs</a>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#project-details">Project</a></li>
-                <li><a href="#team">Team</a></li>
-            </ul>
-        </div>
+      <div class="nav-container">
+        <a href="#home" class="logo">klumbs</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#project-overview">Project</a></li>
+          <li><a href="#team">Team</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>CSCI 4830 - Final Project</h1>
-            <p>- Team klumbs - </p>
-        </div>
+    <header id="home">
+      <div class="container">
+        <h1>CSCI 4830 - Final Project</h1>
+        <p>- Team klumbs -</p>
+      </div>
     </header>
 
-    <!-- Project Details Section -->
-    <section id="project-details">
-        <div class="container">
-            <h2>Project Proposal</h2>
-            <h4>(Tentative)</h4>
-            <div class="project-description">
-                <h3>Decision Maker</h3>
-            <p>
-                <ul>
-                    <li>Users can add options based on what the group is deciding on (where to go, what activity to do, etc)</li>
-                    <li>An AI NPC has the option to evaluate the options and rank them based on criteria (price, distance, preferences) and generate a recommendation </li>
-                </ul>
-            </p>
-            </div>
-            
+    <!-- Project Overview Section -->
+    <section id="project-overview">
+      <div class="container">
+        <h2>Project Overview</h2>
+        <h3 class="project-subtitle">Decider VR</h3>
+        <div class="project-description">
+          <p>
+            <strong>Decider VR</strong> is a collaborative VR/MR application
+            designed to help groups make shared decisions more easily. Users can
+            add and react to options — like where to go or what to do — while an
+            AI-powered NPC evaluates and ranks them based on criteria such as
+            price, distance, and preferences.
+          </p>
+          <p>
+            The goal of Decision Maker is to create a more engaging and
+            transparent group decision-making process, combining immersive XR
+            environments, interactive UI panels, and intelligent AI analysis to
+            help users reach fair and efficient outcomes.
+          </p>
         </div>
+      </div>
+    </section>
+
+    <!-- Project Trailer Section -->
+    <section id="project-trailer">
+      <div class="container">
+        <h2>Project Trailer</h2>
+        <div class="trailer-wrapper">
+          <video controls poster="img/trailer-thumbnail.jpg">
+            <source src="videos/DeciderVR-Trailer.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details Section -->
+    <section id="details">
+      <div class="container">
+        <h2>Project Details</h2>
+        <div class="details-grid">
+          <!-- AI NPC -->
+          <div class="details-item">
+            <h3>AI-Driven NPC</h3>
+            <h4>Ranking & Recommendations</h4>
+            <p>
+              The AI NPC analyzes all submitted options along with user
+              preferences and selected criteria. It ranks each option based on
+              factors like distance, price, and personal preferences, then
+              generates a clear recommendation with a short explanation.
+            </p>
+          </div>
+
+          <!-- Collaborative Experience -->
+          <div class="details-item">
+            <h3>Collaborative Experience</h3>
+            <h4>Multi-User Rooms & Avatars</h4>
+            <p>
+              Decision Maker supports private, multi-user rooms where friends
+              join sessions to decide together. In VR, users are represented by
+              avatars — either shared or randomly assigned.
+            </p>
+          </div>
+
+          <!-- UI System -->
+          <div class="details-item">
+            <h3>UI System & Interaction</h3>
+            <h4>Menus, Criteria, and Reach Goals</h4>
+            <p>
+              The interface features a global start menu to begin sessions,
+              restart, or close. Results are displayed visually with rankings,
+              colors, or numerical scores. Each user can add or remove options
+              and rank them.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Team Section -->
     <section id="team">
-        <div class="container">
-            <h2>Meet the Team</h2>
-            <div class="team-grid">
-                <!-- Songmin -->
-                <div class="team-member">
-                    <img src="img/Songmin_Photo.jpg" alt="Songmin Kim">
-                    <h3>Songmin Kim</h3>
-                    <p>
-                        Songmin is a junior majoring in Computer Science who loves solving problems, learning new technologies, and bringing ideas come to life through problem solving. 
-                        Lately, she's been exploring VR using unity, which combines creativity with technical skills, and is also interested in how technology shapes our daily life.
-                        She hopes to build software that makes people's lives a little more fun and comfortable.
-                    </p>
-                </div>
-                <!-- Lindsay -->
-                <div class="team-member">
-                    <img src="img/Lindsay_Photo2.jpg" alt="Lindsay Bui">
-                    <h3>Lindsay Bui</h3>
-                    <p>
-                        Lindsay is a fourth-year Computer Science major graduating in December 2025, concentrating in software design and pursuing the New Media Certificate. 
-                        Her passions lie in web, app, and game development, but she’s always looking for opportunities to broaden her skillset and explore new areas. 
-                        In her free time, she enjoys traveling and learning about different languages and cultures.
-                    </p>
-                </div>
-                <!-- Michelle -->
-                <div class="team-member">
-                    <img src="img/Michelle_Photo.jpg" alt="Michelle Ung">
-                    <h3>Michelle Ung</h3>
-                    <p>
-                        Michelle is a fourth-year Computer Science major working on her New Media Certificate at UGA, set to graduate this Fall 2025. 
-                        Her primary career paths of interest are software/web development and UI/UX design, and in her spare time, she likes to create digital illustrations.
-                    </p>
-                </div>
-                <!-- Add more members as needed -->
-            </div>
+      <div class="container">
+        <h2>Meet the Team</h2>
+        <div class="team-grid">
+          <!-- Songmin -->
+          <div class="team-member">
+            <img src="img/Songmin_Photo.jpg" alt="Songmin Kim" />
+            <h3>Songmin Kim</h3>
+            <p>
+              Songmin is a junior majoring in Computer Science who loves solving
+              problems, learning new technologies, and bringing ideas come to
+              life through problem solving. Lately, she's been exploring VR
+              using unity, which combines creativity with technical skills, and
+              is also interested in how technology shapes our daily life. She
+              hopes to build software that makes people's lives a little more
+              fun and comfortable.
+            </p>
+          </div>
+          <!-- Lindsay -->
+          <div class="team-member">
+            <img src="img/Lindsay_Photo2.jpg" alt="Lindsay Bui" />
+            <h3>Lindsay Bui</h3>
+            <p>
+              Lindsay is a fourth-year Computer Science major graduating in
+              December 2025, concentrating in software design and pursuing the
+              New Media Certificate. Her passions lie in web, app, and game
+              development, but she’s always looking for opportunities to broaden
+              her skillset and explore new areas. In her free time, she enjoys
+              traveling and learning about different languages and cultures.
+            </p>
+          </div>
+          <!-- Michelle -->
+          <div class="team-member">
+            <img src="img/Michelle_Photo.jpg" alt="Michelle Ung" />
+            <h3>Michelle Ung</h3>
+            <p>
+              Michelle is a fourth-year Computer Science major working on her
+              New Media Certificate at UGA, set to graduate this Fall 2025. Her
+              primary career paths of interest are software/web development and
+              UI/UX design, and in her spare time, she likes to create digital
+              illustrations.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2025 klumbs</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 klumbs</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
