@@ -9,12 +9,16 @@ The purpose of this site is to document our progress, introduce the team, and ev
 
 ## 📖 What This Website Includes
 
-- 🚧 Basic project description  
-- 🚧 Team member bios + photos  
-- 🚧 Upcoming: project concept, design updates, screenshots  
+- Basic project description  
+- Team member bios + photos  
 - 🚧 Later: demo video + final presentation materials  
 
 This website is separate from the main project code repository.
+
+## 🕘 Updates
+**Last update: December 2, 2025**
+- Added project advertisement video
+- Updated project overview and details 
 
 ---
 
