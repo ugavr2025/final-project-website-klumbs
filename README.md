@@ -11,14 +11,14 @@ The purpose of this site is to document our progress, introduce the team, and ev
 
 - Basic project description  
 - Team member bios + photos  
-- 🚧 Later: demo video + final presentation materials  
+- Demo video + final presentation materials  
 
 This website is separate from the main project code repository.
 
 ## 🕘 Updates
-**Last update: December 2, 2025**
-- Added project advertisement video
-- Updated project overview and details 
+**Last update: December 8, 2025**
+- Added advertisement video thumbnail
+- Added project showcase section 
 
 ---
 
