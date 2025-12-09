@@ -108,8 +108,7 @@ h2 {
 }
 
 a {
-    list-style: none;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer {
@@ -168,7 +167,8 @@ footer {
   color: #ffd700;
 }
 
-header, section {
+header,
+section {
   padding-top: 5rem;
 }
 
@@ -209,14 +209,14 @@ header, section {
 }
 
 .project-subtitle {
-  color: #4b6cb7;        
+  color: #4b6cb7;
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
 
 #project-overview h2 {
-  margin-bottom: 0.5rem; 
+  margin-bottom: 0.5rem;
 }
 
 #details {
@@ -261,7 +261,7 @@ header, section {
   text-align: left;
 }
 
-/* Keep trailer the same size */
+/* Project trailer */
 #project-trailer {
   padding: 4rem 0 2rem;
 }
@@ -325,7 +325,7 @@ header, section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0; 
+  padding: 0;
 }
 
 .showcase-item:hover {
@@ -337,7 +337,7 @@ header, section {
   width: 100%;
   height: 230px;
   object-fit: cover;
-  border-bottom: 1px solid #eee; 
+  border-bottom: 1px solid #eee;
 }
 
 .showcase-item h3 {
@@ -351,7 +351,9 @@ header, section {
   color: #555;
   text-align: left;
   line-height: 1.6;
-  padding: 0 1.25rem 1.5rem; 
+  padding: 0 1.25rem 1.5rem;
+}
+
 .arrow {
   font-size: 2.8rem;
   color: #4b6cb7;
@@ -363,6 +365,7 @@ header, section {
   transform: scale(1.1);
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   .showcase-flow {
     flex-direction: column;
@@ -371,17 +374,19 @@ header, section {
   }
 
   .arrow {
+    display: block;
     transform: rotate(90deg);
     font-size: 2.2rem;
-    margin: -0.5rem 0 0.5rem 0;
+    margin: 0.5rem 0;
     color: #4b6cb7;
+    text-align: center;
+    line-height: 1;
   }
 
   .showcase-item {
     flex: 0 0 auto;
-    width: 92%;
+    width: 90%;
     height: auto;
-    padding: 1.5rem;
   }
 
   .showcase-item img {
